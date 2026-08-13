@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="search_bar" type="text" readonly>
+        <div id="container">
+            <button class="button" onclick="currentDisp='';document.querySelector('#search_bar').value = currentDisp "">C</button>
+            <button class="button" onclick="currentDisp= currentDisp + '1';
+            document.querySelector('#search_bar').value = currentDisp ">1</button>
+            <button class="button" onclick="currentDisp= currentDisp + '2';
+            document.querySelector('#search_bar').value = currentDisp ">2</button>
+            <button class="button" onclick="currentDisp= currentDisp + '+';
+            document.querySelector('#search_bar').value = currentDisp ">+</button>
+            <button class="button" onclick="currentDisp= currentDisp + '3';
+            document.querySelector('#search_bar').value = currentDisp ">3</button>
+            <button class="button" onclick="currentDisp= currentDisp + '4';
+            document.querySelector('#search_bar').value = currentDisp ">4</button>
+            <button class="button" onclick="currentDisp= currentDisp + '-';
+            document.querySelector('#search_bar').value = currentDisp ">-</button>
+            <button class="button" onclick="currentDisp= currentDisp + '5';
+            document.querySelector('#search_bar').value = currentDisp ">5</button>
+            <button class="button" onclick="currentDisp= currentDisp + '6';
+            document.querySelector('#search_bar').value = currentDisp ">6</button>
+            <button class="button" onclick="currentDisp= currentDisp + '*';
+            document.querySelector('#search_bar').value = currentDisp ">*</button>
+            <button class="button" onclick="currentDisp= currentDisp + '7';
+            document.querySelector('#search_bar').value = currentDisp ">7</button>
+            <button class="button" onclick="currentDisp= currentDisp + '8';
+            document.querySelector('#search_bar').value = currentDisp ">8</button>
+            <button class="button" onclick="currentDisp= currentDisp + '/';
+            document.querySelector('#search_bar').value = currentDisp ">/</button>
+            <button class="button" onclick="
+            let result= eval(currentDisp);
+            currentDisp=result
+             document.querySelector('#search_bar').value = currentDisp";
+            >=</button>
+            <button class="button" onclick="currentDisp= currentDisp + '9';
+            document.querySelector('#search_bar').value = currentDisp ">9</button>
+            <button class="button" onclick="currentDisp= currentDisp + '0';
+            document.querySelector('#search_bar').value = currentDisp ">0</button>
+            <button class="button" onclick="currentDisp= currentDisp + '.';
+            document.querySelector('#search_bar').value = currentDisp ">.</button>
+            <button class="button" onclick="currentDisp = currentDisp.slice(0, -1);  
+            document.querySelector('#search_bar').value = currentDisp">⌫</button>
+        
+        </div>
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
+</body>
+</html>
